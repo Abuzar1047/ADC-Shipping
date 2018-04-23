@@ -77,7 +77,7 @@
                                     <td><?php echo $item['Status'] ?></td>
                                     <td class="text-center"><a href="history.php?sid=<?php echo $item['Id'] ?>"><span class="fa fa-history"></span></a></td>
                                     <td>
-                                        <a href="edit.php?id=<?php echo $item['Id'] ?>"><span class="fa fa-edit"></span></a>
+                                        <a style="margin-right: 20px" href="edit.php?id=<?php echo $item['Id'] ?>"><span class="fa fa-edit"></span></a>
                                         <a href="database/delete.php?id=<?php echo $item['Id'] ?>"><span class="fa fa-cut"></span></a>
                                     </td>
                                 </tr>

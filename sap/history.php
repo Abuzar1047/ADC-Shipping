@@ -78,7 +78,7 @@
                                 <td><?php echo $item['Location'] ?></td>
                                 <td><?php echo $item['Status'] ?></td>
                                 <td>
-                                    <a href="edithistory.php?id=<?php echo $item['Id'] ?>&sid=<?php echo $_REQUEST['sid'] ?>"><span class="fa fa-edit"></span></a>
+                                    <a style="margin-right: 20px" href="edithistory.php?id=<?php echo $item['Id'] ?>&sid=<?php echo $_REQUEST['sid'] ?>"><span class="fa fa-edit"></span></a>
                                     <a href="database/deletehistory.php?id=<?php echo $item['Id'] ?>&sid=<?php echo $_REQUEST['sid'] ?>"><span class="fa fa-cut"></span></a>
                                 </td>
                             </tr>
